@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781f723f-252b-4c38-9c81-ef65fb31f921" name="Changes" comment="&quot;se creo la clase student&quot;">
+    <list default="true" id="781f723f-252b-4c38-9c81-ef65fb31f921" name="Changes" comment="&quot;Se creo la clase student&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677157912908</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Se creo la clase student&quot;">
+      <created>1677778626839</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677778626839</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;se creo la clase student&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;se creo la clase student&quot;" />
+    <MESSAGE value="&quot;Se creo la clase student&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Se creo la clase student&quot;" />
   </component>
 </project>
