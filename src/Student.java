@@ -3,22 +3,22 @@ public class Student {
     private String name;
     private String lastName;
     private String career;
-    private Short semester;
-    private Double average;
+    private int semester;
+    private double average;
     public double getGeneralAverage(long controlNumber) {
         return 0.0;
     }
-    public double getSemesterAverage(long controlNumber,Short semester) {
+    public double getSemesterAverage(long controlNumber,int semester) {
         return 0.0;
     }
-    public double getSubjectGrade(long controlNumber,String materia) {
+    public double getSubjectGrade(long controlNumber,String subject) {
         return 0.0;
     }
-
+    //get y set de los atributos
     public long getControlNumber() {
         return controlNumber;
     }
-    public void setControlNumber(Long controlNumber) {
+    public void setControlNumber(long controlNumber) {
         this.controlNumber = controlNumber;
     }
     public String getName() {
@@ -39,10 +39,10 @@ public class Student {
     public void setCareer(String career) {
         this.career = career;
     }
-    public Short getSemester() {
+    public int getSemester() {
         return semester;
     }
-    public void setSemester(Short semester) {
+    public void setSemester(int semester) {
         this.semester = semester;
     }
     public Double getAverage() {
@@ -51,4 +51,5 @@ public class Student {
     public void setAverage(Double average) {
         this.average = average;
     }
+
 }
