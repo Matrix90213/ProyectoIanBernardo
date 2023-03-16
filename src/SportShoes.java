@@ -6,10 +6,12 @@ public class SportShoes {
     private int amount;
     private int age;
     private char sex;
-    public SportShoes(){
+
+    public SportShoes() {
 
     }
-    public SportShoes(String name,String mark, String color, int size,int amount,int age,char sex) {
+
+    public SportShoes(String name, String mark, String color, int size, int amount, int age, char sex) {
         this.name = name;
         this.mark = mark;
         this.color = color;
@@ -75,14 +77,14 @@ public class SportShoes {
         this.sex = sex;
     }
 
-    public String toString(){
-        System.out.println("Hola "+getName()+" estos son tus datos ");
-        System.out.println("Cantidad de Zapatos: "+getAmount());
-        System.out.println("Marca: "+getMark());
-        System.out.println("Tamaño/Talla: "+getSize());
-        System.out.println("Color: "+getColor());
-        System.out.println("Edad: "+getAge());
-        System.out.println("Sexo: "+getSex());
+    public String toString() {
+        System.out.println("Hola " + getName() + " estos son tus datos ");
+        System.out.println("Cantidad de Zapatos: " + getAmount());
+        System.out.println("Marca: " + getMark());
+        System.out.println("Tamaño/Talla: " + getSize());
+        System.out.println("Color: " + getColor());
+        System.out.println("Edad: " + getAge());
+        System.out.println("Sexo: " + getSex());
         return "";
     }
 }
